@@ -1,0 +1,35 @@
+
+/*############ COLORS ############*/
+
+$black: #000;
+$white: #fff;
+$highlight: #f00;
+
+.black{
+	color:$black;
+}
+
+.white{
+	color:$white;
+}
+
+.highlight{
+	color:$highlight;
+}
+
+/*############ UTIL ############*/
+
+.bold{
+	font-weight: bold;
+}
+.big{
+	text-transform: lowercase;
+	font-size: 6rem;
+	font-weight: 300;
+}
+.lower{
+	text-transform: lowercase;
+}
+.upper{
+	text-transform: uppercase;
+}

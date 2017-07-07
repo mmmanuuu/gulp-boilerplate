@@ -1,0 +1,72 @@
+/*############ COLORS ############*/
+.black {
+  color: #000; }
+
+.white {
+  color: #fff; }
+
+.highlight {
+  color: #f00; }
+
+/*############ UTIL ############*/
+.bold {
+  font-weight: bold; }
+
+.big {
+  text-transform: lowercase;
+  font-size: 6rem;
+  font-weight: 300; }
+
+.lower {
+  text-transform: lowercase; }
+
+.upper {
+  text-transform: uppercase; }
+
+html {
+  margin: 0;
+  padding: 0;
+  font-size: 16px; }
+
+body {
+  background: #555;
+  margin: 0;
+  padding: 0;
+  font-family: "Source Sans Pro";
+  font-weight: lighter; }
+
+p {
+  color: #fff;
+  font-size: 0.777rem;
+  word-break: break-word; }
+
+a {
+  color: #fff; }
+  a:hover {
+    color: #fff;
+    text-decoration: none; }
+  a:visited {
+    color: #fff; }
+  a:active, a.active {
+    color: #f00; }
+
+h1, h2, h3, h4, h5 {
+  text-transform: uppercase;
+  color: #fff;
+  font-weight: 700; }
+  h1 .top, h2 .top, h3 .top, h4 .top, h5 .top {
+    font-size: 0.5em;
+    font-weight: 300;
+    display: block; }
+
+h1 {
+  font-size: 3rem; }
+
+h2 {
+  font-size: 2.5rem; }
+
+h3 {
+  font-size: 1.5rem; }
+
+h4 {
+  font-size: 1.2rem; }

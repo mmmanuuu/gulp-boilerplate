@@ -1,0 +1,52 @@
+html{margin:0;padding:0;font-size:16px}
+body{
+	background:#555;
+	margin:0;
+	padding:0;
+	font-family: "Source Sans Pro";
+	font-weight: lighter;
+}
+
+p{
+	color: $white;
+	font-size: 0.777rem;
+    word-break: break-word;
+}
+
+a{
+	color: $white;
+	&:hover{
+		color: $white;
+		text-decoration: none;
+	}
+	&:visited{
+		color: $white;
+	}
+	&:active,&.active{
+		color: $highlight;
+	}
+}
+
+h1,h2,h3,h4,h5{
+	text-transform: uppercase;
+	color: $white;
+	font-weight: 700;
+	.top{
+		font-size: 0.5em;
+		font-weight: 300;
+		display: block;
+	}
+}
+
+h1{
+	font-size: 3rem;
+}
+h2{
+	font-size: 2.5rem;
+}
+h3{
+	font-size: 1.5rem;
+}
+h4{
+	font-size: 1.2rem;
+}
